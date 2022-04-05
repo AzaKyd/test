@@ -1,31 +1,403 @@
 {
-  "posts": [
+  "bugs": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "ID": 1,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI100X065']",
+      "Description": "Поле 065 не выводит значения (txt063 > 0) ? txt062 : 0",
+      "bug": true
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "ID": 2,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI100X069']",
+      "Description": "Поле 069 не выводит значения txt068<0 ? (txt066 < 0 ? txt066 * -1 : txt066):0",
+      "bug": true
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "ID": 3,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI100X074']",
+      "Description": "Поле 74 не выводит значения (txt072<0) ? 0 : txt072*txt073/100)",
+      "bug": true
+    },
+    {
+      "ID": 4,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI100X051']",
+      "Description": "Поле 51 не должно быть readonly",
+      "bug": true
+    },
+    {
+      "ID": 5,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI100X052']",
+      "Description": "Поле 52 не должно быть readonly",
+      "bug": true
+    },
+    {
+      "ID": 6,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI100X065']",
+      "Description": "В поле 63 положительное значение не переходит в поле 65. (txt063 > 0) ? txt062 : 0",
+      "bug": true
+    },
+    {
+      "ID": 7,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI100X069']",
+      "Description": "В поле 68 отрицательное значение не переходит в поле 69. txt068<0 ? (txt066 < 0 ? txt066 * -1 : txt066):0",
+      "bug": true
+    },
+    {
+      "ID": 8,
+      "URL": "https://cabinet.salyk.kg/report/sti100declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI100X074']",
+      "Description": "Поле 74 не выводит значения (txt072<0) ? 0 : txt072*txt073/100)",
+      "bug": true
+    },
+    {
+      "ID": 9,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X050']",
+      "Description": "Поле 050 не работает txt199+txt959",
+      "bug": true
+    },
+    {
+      "ID": 10,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X051']",
+      "Description": "Поле 051 не работает txt299+txt960",
+      "bug": true
+    },
+    {
+      "ID": 11,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X052']",
+      "Description": "Поле 052 не работает txt050-txt051",
+      "bug": true
+    },
+    {
+      "ID": 12,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X053']",
+      "Description": "Поле 053 не работает txt499",
+      "bug": true
+    },
+    {
+      "ID": 13,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X054']",
+      "Description": "Поле 054 не работает txt963",
+      "bug": true
+    },
+    {
+      "ID": 14,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X055']",
+      "Description": "Поле 055 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 15,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X056']",
+      "Description": "Поле 056 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 16,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X057']",
+      "Description": "Поле 057 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 17,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X058']",
+      "Description": "Поле 058 txt052-txt053-txt054+txt055-txt056-txt057у",
+      "bug": true
+    },
+    {
+      "ID": 18,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X059']",
+      "Description": "Поле 059 (txt058>0) ? 0 : txt058",
+      "bug": true
+    },
+    {
+      "ID": 19,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X060']",
+      "Description": "Поле 060 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 20,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X061']",
+      "Description": "Поле 061 не рабоает txt058*txt060/100у",
+      "bug": true
+    },
+    {
+      "ID": 21,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X062']",
+      "Description": "Поле 062 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 22,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X063']",
+      "Description": "Поле 063 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 23,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X064']",
+      "Description": "Поле 064 помощнику ячейка Rule есть '101_2_064', но в ячейке JSRule пусто",
+      "bug": false
+    },
+    {
+      "ID": 24,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X065']",
+      "Description": "Поле 065 не работает txt964",
+      "bug": true
+    },
+    {
+      "ID": 25,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X066']",
+      "Description": "Поле 066 не работает txt061-txt062-txt063-txt064+txt065",
+      "bug": true
+    },
+    {
+      "ID": 26,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X067']",
+      "Description": "Поле 067 не рабоает (txt066>0) ? 0 : txt066",
+      "bug": true
+    },
+    {
+      "ID": 27,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X068']",
+      "Description": "Поле 068 не работает формула (txt066<0) ? 0 : txt066",
+      "bug": true
+    },
+    {
+      "ID": 28,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101X068']",
+      "Description": "Поле 165 должно быть readonly, формула работает корректно txt166+txt167",
+      "bug": true
+    },
+    {
+      "ID": 29,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X510']",
+      "Description": "Поле 510 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 30,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X511']",
+      "Description": "Поле 511 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 29,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X515']",
+      "Description": "Поле 515 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 30,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X516']",
+      "Description": "Поле 516 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 29,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X520']",
+      "Description": "Поле 520 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 30,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101X521']",
+      "Description": "Поле 521 нужно поменять цвет фона",
+      "bug": false
+    },
+    {
+      "ID": 31,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL6.STI101X618']",
+      "Description": "Поле 618 нужно поменять цвет фона, span соседний размером чуть больше.",
+      "bug": false
+    },
+    {
+      "ID": 32,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform2",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL61[-1].STI101X61X1']",
+      "Description": "Индекс первой строки репиторов [-1] превой линии, поэтому изменения не отображаются в 'РАЗДЕЛ I. ИНФОРМАЦИЯ О ЗЕМЕЛЬНЫХ УЧАСТКАХ И ЗЕМЕЛЬНОМ НАЛОГЕ.'",
+      "bug": false
+    },
+    {
+      "ID": 33,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X050']",
+      "Description": "Поле 050 не работает txt199+txt959",
+      "bug": true
+    },
+    {
+      "ID": 34,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X051']",
+      "Description": "Поле 051 не работает txt299+txt960",
+      "bug": true
+    },
+    {
+      "ID": 35,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X052']",
+      "Description": "Поле 052 не работает txt050-txt051",
+      "bug": true
+    },
+    {
+      "ID": 36,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X053']",
+      "Description": "Поле 053 не работает txt499",
+      "bug": true
+    },
+    {
+      "ID": 37,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X054']",
+      "Description": "Поле 054 не работает txt963",
+      "bug": true
+    },
+    {
+      "ID": 38,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X055']",
+      "Description": "Поле 055 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 39,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X056']",
+      "Description": "Поле 056 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 40,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X057']",
+      "Description": "Поле 057 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 41,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X058']",
+      "Description": "Поле 058 txt052-txt053-txt054+txt055-txt056-txt057у",
+      "bug": true
+    },
+    {
+      "ID": 42,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X059']",
+      "Description": "Поле 059 (txt058>0) ? 0 : txt058",
+      "bug": true
+    },
+    {
+      "ID": 43,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X060']",
+      "Description": "Поле 060 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 44,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X061']",
+      "Description": "Поле 061 не рабоает txt058*txt060/100у",
+      "bug": true
+    },
+    {
+      "ID": 45,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X062']",
+      "Description": "Поле 062 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 46,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X063']",
+      "Description": "Поле 063 не readonly по помощнику",
+      "bug": true
+    },
+    {
+      "ID": 47,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X064']",
+      "Description": "Поле 064 помощнику ячейка Rule есть '101_2_064', но в ячейке JSRule пусто",
+      "bug": false
+    },
+    {
+      "ID": 48,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X065']",
+      "Description": "Поле 065 не работает txt964",
+      "bug": true
+    },
+    {
+      "ID": 49,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X066']",
+      "Description": "Поле 066 не работает txt061-txt062-txt063-txt064+txt065",
+      "bug": true
+    },
+    {
+      "ID": 50,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X067']",
+      "Description": "Поле 067 не рабоает (txt066>0) ? 0 : txt066",
+      "bug": true
+    },
+    {
+      "ID": 51,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101X068']",
+      "Description": "Поле 068 не работает формула (txt066<0) ? 0 : txt066",
+      "bug": true
+    },
+    {
+      "ID": 52,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL1.STI101X165']",
+      "Description": "Поле 165 должно быть readonly, формула работает корректно txt166+txt167",
+      "bug": false
+    },
+    {
+      "ID": 53,
+      "URL": "https://cabinet.salyk.kg/report/sti101declaration/createform3",
+      "Selector": "[name='Declaration.PART2.STI101_2DECLARATIONDETAIL5.STI101SUM51']",
+      "Description": "Поле 951 не суммирует сумму налогов. Так же есть опечатка",
+      "bug": true
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
